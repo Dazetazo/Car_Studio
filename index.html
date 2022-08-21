@@ -1,13 +1,309 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Ciento11_Car_Studio</title>
+    <link rel="stylesheet" href="scripts/style.css" />
+    <link
+      href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <header>
+      <div class="logo"><a href="#">Ciento Once</a></div>
+      <div class="menu">
+        <a href=""><ion-icon name="close" class="close"></ion-icon></a>
+        <ul>
+          <li><a href="#" class="under">HOME</a></li>
+          <li><a href="#" class="under">COTIZAR</a></li>
+          <li><a href="#" class="under">GALERIA</a></li>
+          <li><a href="#" class="under">SERVICIO</a></li>
+          <li><a href="#" class="under">ACERCA DE</a></li>
+        </ul>
+      </div>
+      <div class="heading">
+        <ul>
+          <li><a href="#" class="under">HOME</a></li>
+          <li><a href="#" class="under">COTIZAR</a></li>
+          <li><a href="#" class="under">GALERIA</a></li>
+          <li><a href="#" class="under">SERVICIO</a></li>
+          <li><a href="#" class="under">ACERCA DE</a></li>
+        </ul>
+      </div>
+      <div class="heading1">
+        <ion-icon name="menu" class="ham"></ion-icon>
+      </div>
+    </header>
+    <section>
+      <div class="section">
+        <div class="section1">
+          <div
+            id="carouselExampleFade"
+            class="carousel slide carousel-fade"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="images/negro_rojo.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img src="images/portada.jpg" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="section2">
+          <div class="container">
+            <div class="items">
+              <div class="img img1">
+                <img src="images/img1/COATING_CERÁMICO.jpg" alt="" />
+              </div>
+              <div class="name">Coating Cerámico</div>
+              <div class="info">
+                <p>✅ lavado y descontaminado full</p>
+                <p>✅ corrección de carrocería</p>
+                <p>✅limpieza de interior full</p>
+                <p>✅ sellado interior 6 meses</p>
+              </div>
+            </div>
+            <div class="items">
+              <div class="img img2">
+                <img src="images/img1/BMW_530Df10.jpg" alt="" />
+              </div>
+              <div class="name">BMW 530Df10</div>
+              <div class="info">
+                <p>✅ Detailing 111</p>
+                <p>✅ Corrección de pintura</p>
+              </div>
+            </div>
+            <div class="items">
+              <div class="img img3">
+                <img src="images/img1/F150_limited.jpg" alt="" />
+              </div>
+              <div class="name">F150 limited</div>
+              <div class="info">
+                <p>✅ Reparación de puertas</p>
+                <p>✅ Trabajo de pintura</p>
+              </div>
+            </div>
+            <div class="items">
+              <div class="img img1">
+                <img src="images/img1/ford1.JPG" alt="" />
+              </div>
+              <div class="name">F150 limited</div>
+              <div class="info">
+                <p>✅ Reparación de puertas</p>
+                <p>✅ Trabajo de pintura</p>
+              </div>
+            </div>
+            <div class="items">
+              <div class="img img1">
+                <img src="images/img1/ford2.JPG" alt="" />
+              </div>
+              <div class="name">F150 limited</div>
+              <div class="info">
+                <p>✅ Reparación de puertas</p>
+                <p>✅ Trabajo de pintura</p>
+              </div>
+            </div>
+            <div class="items">
+              <div class="img img1">
+                <img src="images/img1/FORD_FOCUS.jpg" alt="" />
+              </div>
+              <div class="name">Ford Focus</div>
+              <div class="info">
+                <p>✅ Detailing full interior y exterior</p>
+              </div>
+            </div>
+            <div class="items">
+              <div class="img img1">
+                <img src="images/img1/FORD_FOCUS1.jpg" alt="" />
+              </div>
+              <div class="name">Ford Focus</div>
+              <div class="info">
+                <p>✅ Coating cerámico 24 meses</p>
+              </div>
+            </div>
+            <div class="items">
+              <div class="img img1">
+                <img src="images/img1/Land_Rover_DISCOVERY.jpg" alt="" />
+              </div>
+              <div class="name">Land Rover DISCOVERY</div>
+              <div class="info">
+                <p>✅ Corrección de la carrocería</p>
+              </div>
+            </div>
+            <div class="items">
+              <div class="img img1">
+                <img src="images/img1/M5_bmw_rings.jpg" alt="" />
+              </div>
+              <div class="name">M5 BMW Rings</div>
+              <div class="info">
+                <p>✅ Ceramic coating</p>
+              </div>
+            </div>
+            <div class="items">
+              <div class="img img1">
+                <img src="images/img1/Porsche_718_boxster.jpg" alt="" />
+              </div>
+              <div class="name">Porsche 718 Boxster</div>
+              <div class="info">
+                <p>✅ Corrección de carrocería 3 step</p>
+              </div>
+            </div>
+            <div class="items">
+              <div class="img img1">
+                <img src="images/img1/Project 718_Porsche.jpg" alt="" />
+              </div>
+              <div class="name">Project 718 Porsche</div>
+              <div class="info">
+                <p>✅ Descontaminación general</p>
+              </div>
+            </div>
+            <div class="items">
+              <div class="img img1">
+                <img src="images/img1/Downpipe.JPG" alt="" />
+              </div>
+              <div class="name">Downpipe</div>
+              <div class="info">
+                <p>✅ Cotiza con nosotros</p>
+              </div>
+            </div>
+            <div class="items">
+              <div class="img img1">
+                <img src="images/img1/Project_Bimmer_325i.jpg" alt="" />
+              </div>
+              <div class="name">Project Bimmer 325i</div>
+              <div class="info">
+                <p>✅ Corrección de pintura</p>
+              </div>
+            </div>
+            <div class="items">
+              <div class="img img1">
+                <img src="images/img1/Project_Bimmer_325i1.jpg" alt="" />
+              </div>
+              <div class="name">Project Bimmer 325i</div>
+              <div class="info">
+                <p>✅ Full interior</p>
+              </div>
+            </div>
+            <div class="items">
+              <div class="img img1">
+                <img src="images/img1/Renault_Clio.jpg" alt="" />
+              </div>
+              <div class="name">Renault Clio</div>
+              <div class="info">
+                <p>✅ Proceso de corrección de laca</p>
+              </div>
+            </div>
+            <div class="items">
+              <div class="img img1">
+                <img src="images/img1/DETAILING_PERFORMANCE.png" alt="" />
+              </div>
+              <div class="name">Detailing & Performance</div>
+              <div class="info">
+                <p>✅ DEJA TU AUTO EN LAS MEJORES MANOS</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer2">
+        <div class="product">
+          <div class="heading">𝙲𝙰𝚁 𝚂𝚃𝚄𝙳𝙸𝙾</div>
+          <div class="div">⚡️Detailing</div>
+          <div class="div">⚡Car paint & custom</div>
+          <div class="div">⚡️Coating cerámico</div>
+          <div class="div">⚡Laminas de seguridad</div>
+        </div>
+        <div class="services">
+          <div class="heading">Servicios</div>
+          <div class="div">⚡️Detailing</div>
+          <div class="div">⚡️Pintura automotriz</div>
+          <div class="div">⚡️Car wash pro</div>
+          <div class="div">⚡️Polarizado americano</div>
+        </div>
+        <div class="Company">
+          <div class="heading">Company</div>
+          <div class="div">⚡️Soporte</div>
+          <div class="div">⚡️Distribuidores</div>
+          <div class="div">⚡️Afiliados</div>
+          <div class="div">⚡️Denuncias</div>
+        </div>
+        <div class="Get Help">
+          <div class="heading">Get Help</div>
+          <div class="div">⚡️Centro de ayuda</div>
+          <div class="div">⚡️Política de privacidad</div>
+          <div class="div">⚡️Términos</div>
+          <div class="div">⚡️Contactanos</div>
+        </div>
+      </div>
+      <div class="footer3">Copyright © Ciento11_Car_Studio 2022-2022</div>
+      <div class="social-media">
+        <a href="#">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+        <a href="https://www.linkedin.com/in/diego-valenzuela-gonzález/">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+        <a href="#">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+        <a href="https://www.instagram.com/cientoonce_car_studio/">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="#">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a>
+      </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="scripts/main.js"></script>
   </body>
 </html>
